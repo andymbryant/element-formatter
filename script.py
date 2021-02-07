@@ -17,7 +17,7 @@ for el in element_data:
         # Add an ID in case these ever need to be tracked during iteration or render
         'id': str(uuid4())[:8],
         'symbol': symbol,
-        'key': key,
+        'objKey': key,
         'name': el.get('name'),
         'atomicMass': el.get('atomic_mass'),
         'xpos': el.get('xpos'),
